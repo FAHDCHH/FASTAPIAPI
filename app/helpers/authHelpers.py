@@ -4,8 +4,7 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import os
 
-from jwt import PyJWTError
-
+from jwt.exceptions import InvalidTokenError
 
 # Load environment variables
 load_dotenv()
